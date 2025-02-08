@@ -23,7 +23,8 @@ mytickers = ["MSFT", "AAPL", "NVDA", "GME", "AMC"]
 
 mydata = {}
 
-mytickers.sort()
+#Sorts the stocks alphabetically
+#mytickers.sort()
 
 for ticker in mytickers:
 
@@ -57,6 +58,9 @@ for ticker in mytickers:
         plt.axis((9, 0, min_price, max_price))
         plt.title(f"{ticker} Last 10 Closing Prices")
         plt.savefig(f"charts/{ticker}.png")
+
+        #Provides user with the 5 graphs as a pop up after using terminal
+        #plt.show()
 
     else:
         print(f"Do not have 10 days of data. Only have {len(last10days)} days.")
