@@ -2,12 +2,10 @@
 ### Jose Saumat
 ### Mini Project 1
 
-import pprint
 import yfinance as yf
 from datetime import datetime, timedelta
 import numpy as np
 import matplotlib.pyplot as plt
-import copy
 import os
 
 os.makedirs("charts", exist_ok=True)
@@ -23,9 +21,6 @@ mytickers = ["MSFT", "AAPL", "NVDA", "GME", "AMC"]
 
 mydata = {}
 
-#Sorts the stocks alphabetically
-#mytickers.sort()
-
 for ticker in mytickers:
 
     result = yf.Ticker(ticker)
@@ -39,15 +34,8 @@ for ticker in mytickers:
 
     if len(last10days) == 10:
 
-        # maxlist = copy.copy(last10days)
-        # maxlist.sort()
-        # max_price = maxlist[-1]+10
-        # min_price = maxlist[0]-10
-
-
         # max_price = np.max(last10days)
         # min_price = np.min(last10days)
-
 
         myarray = np.array(last10days)
         max_price = myarray.max() + (myarray.max()*.05)
@@ -59,7 +47,7 @@ for ticker in mytickers:
         plt.title(f"{ticker} Last 10 Closing Prices")
         plt.savefig(f"charts/{ticker}.png")
 
-        #Provides user with the 5 graphs as a pop up after using terminal
+        #Provides user with the 5 graphs as a pop-up after using terminal
         #plt.show()
 
     else:
