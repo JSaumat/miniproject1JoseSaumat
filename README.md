@@ -39,8 +39,7 @@ ex. Jason Zeller (Tutorial)
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Jason Zeller](https://www.youtube.com/watch?v=fFss4RzSkOU)
+* [yfinanace](https://pypi.org/project/yfinance/)
+* [matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html)
+* [ChatGPT](https://chatgpt.com/share/67a6c6ec-edb0-800c-9373-00d7134425f4)
