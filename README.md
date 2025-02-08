@@ -25,7 +25,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-###
+### Output
 
 This should create graphs in charts/ for each of the five stocks.
 
