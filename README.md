@@ -33,8 +33,8 @@ This should create graphs in charts/ for each of the five stocks.
 
 Contributors names and contact info
 
-**Jose Saumat**
-**Jason Zeller (Tutorial)**
+- Jose Saumat
+- Jason Zeller (via Tutorial)
 
 ## Acknowledgments
 
